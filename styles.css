@@ -1,19 +1,23 @@
 body {
-    
+    border:solid;
 }
+
 
 .container {
     border:solid 5px black;
-    width:100px;
+    width:200px;
     height:100px;
     background-color: red;
-    display: flex;
+     /* display:flex;  */
+    /* flex-wrap: wrap; */
+    display: inline-block;
+    text-align:center;
+    align-items: stretch;
+    align-content: flex-start;
 }
 
 #div1 {
     order: 1;
-      
-    flex-wrap: wrap;
 }
 
 #div2 {
@@ -26,7 +30,8 @@ body {
 
 #div4 {
     order: 4; 
-}
+    padding-right:25px;
+    padding-left: 25px;}
 
 #div5 {
     order: 5;  

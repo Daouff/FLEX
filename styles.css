@@ -1,0 +1,37 @@
+body {
+    
+}
+
+.container {
+    border:solid 5px black;
+    width:100px;
+    height:100px;
+    background-color: red;
+    display: flex;
+}
+
+#div1 {
+    order: 1;
+      
+    flex-wrap: wrap;
+}
+
+#div2 {
+    order: 2;  
+}
+
+#div3 {
+    order: 3;   
+}
+
+#div4 {
+    order: 4; 
+}
+
+#div5 {
+    order: 5;  
+}
+
+#div6 {
+    order: 6;
+}
